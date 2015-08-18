@@ -3,6 +3,17 @@ Automatic Thumbnail Generation for iHub
 
 This override's the default iHub IUploadFilter and intercepts the file being uploaded after it has been saved to disc.  By using Phantom JS and Selenium you can create a headless browser and auto-generate a thumbnail for a report or dashboard.
 
+# iHub Integration
+
+Upload the class or jar to
+
+```<context root>\WEB-INF\lib```
+
+Add or change the following in iPortal's web.xml
+
+<param-name>UPLOAD_SECURITY_ADAPTER</param-name>
+<param-value>com.opentext.samplecoe.ThumbnailGenerator</param-value>
+
 #IMPORTANT#
 * The server needs to have the following donwloaded and running
 
