@@ -1,5 +1,9 @@
 package com.opentext.samplecode;
 
+/*
+ * @author Kristopher Clark
+ */
+
 import java.io.File;
 import java.net.URL;
 
@@ -87,7 +91,6 @@ public class ThumbnailGenerator implements IUploadSecurityAdapter {
 	
 	@Override
 	public String getErrorMessage(HttpServletRequest request) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
