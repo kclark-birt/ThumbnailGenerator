@@ -11,8 +11,8 @@ Upload the class or jar to
 
 Add or change the following in iPortal's web.xml
 
-```<param-name>UPLOAD_SECURITY_ADAPTER< / param-name>```
-```<param-value>com.opentext.samplecoe.ThumbnailGenerator< / param-value>```
+```<param-name>UPLOAD_SECURITY_ADAPTER< / param-name> ```
+```<param-value>com.opentext.samplecode.ThumbnailGenerator< / param-value>```
 
 #IMPORTANT#
 * The server needs to have the following donwloaded and running
