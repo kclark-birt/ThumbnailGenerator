@@ -102,7 +102,7 @@ public class ThumbnailGenerator implements IUploadSecurityAdapter {
 
 	@Override
 	public boolean verifyFile(HttpServletRequest request, String fileName, String dstFolder) {
-
+		// In implementation change include dstFolder in generateTumbnail()
 		
 		try {
 			if(fileName.contains(".rptdesign") || fileName.contains(".dashboard")) {
